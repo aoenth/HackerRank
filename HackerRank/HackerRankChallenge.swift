@@ -18,7 +18,7 @@ class HackerRankChallenge {
         } else {
             print("Number of inputs required: \(numInputs)")
             for i in 1...numInputs {
-                print("Input number \(i)")
+                print("Input \(i):")
                 let tempLine = readLine()!.components(separatedBy: " ").map{ Int($0)! }
                 input.append(tempLine)
             }

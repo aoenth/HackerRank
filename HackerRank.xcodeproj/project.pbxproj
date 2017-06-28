@@ -12,6 +12,10 @@
 		0ABEDCA91F03F7AB00093E4C /* AVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCA81F03F7AB00093E4C /* AVeryBigSum.swift */; };
 		0ABEDCAB1F0404CF00093E4C /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCAA1F0404CF00093E4C /* DiagonalDifference.swift */; };
 		0ABEDCAD1F0418ED00093E4C /* PlusMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCAC1F0418ED00093E4C /* PlusMinus.swift */; };
+		0ABEDCAF1F04207000093E4C /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCAE1F04207000093E4C /* Staircase.swift */; };
+		0ABEDCB11F04279F00093E4C /* Mini-MaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCB01F04279F00093E4C /* Mini-MaxSum.swift */; };
+		0ABEDCB31F04304000093E4C /* BirthdayCakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCB21F04304000093E4C /* BirthdayCakeCandles.swift */; };
+		0ABEDCB51F04324D00093E4C /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCB41F04324D00093E4C /* TimeConversion.swift */; };
 		0AF565B81F03EEB200608A8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF565B71F03EEB200608A8A /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +37,10 @@
 		0ABEDCA81F03F7AB00093E4C /* AVeryBigSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVeryBigSum.swift; sourceTree = "<group>"; };
 		0ABEDCAA1F0404CF00093E4C /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		0ABEDCAC1F0418ED00093E4C /* PlusMinus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusMinus.swift; sourceTree = "<group>"; };
+		0ABEDCAE1F04207000093E4C /* Staircase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
+		0ABEDCB01F04279F00093E4C /* Mini-MaxSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mini-MaxSum.swift"; sourceTree = "<group>"; };
+		0ABEDCB21F04304000093E4C /* BirthdayCakeCandles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandles.swift; sourceTree = "<group>"; };
+		0ABEDCB41F04324D00093E4C /* TimeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
 		0AF565B41F03EEB200608A8A /* Hackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF565B71F03EEB200608A8A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +81,10 @@
 				0ABEDCA81F03F7AB00093E4C /* AVeryBigSum.swift */,
 				0ABEDCAA1F0404CF00093E4C /* DiagonalDifference.swift */,
 				0ABEDCAC1F0418ED00093E4C /* PlusMinus.swift */,
+				0ABEDCAE1F04207000093E4C /* Staircase.swift */,
+				0ABEDCB01F04279F00093E4C /* Mini-MaxSum.swift */,
+				0ABEDCB21F04304000093E4C /* BirthdayCakeCandles.swift */,
+				0ABEDCB41F04324D00093E4C /* TimeConversion.swift */,
 			);
 			name = HackerRank;
 			path = Hackerrank;
@@ -138,9 +150,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABEDCAB1F0404CF00093E4C /* DiagonalDifference.swift in Sources */,
+				0ABEDCB11F04279F00093E4C /* Mini-MaxSum.swift in Sources */,
+				0ABEDCB31F04304000093E4C /* BirthdayCakeCandles.swift in Sources */,
 				0ABEDCA71F03F3D600093E4C /* HackerRankChallenge.swift in Sources */,
 				0ABEDCAD1F0418ED00093E4C /* PlusMinus.swift in Sources */,
 				0ABEDCA51F03F23C00093E4C /* CompareTheTriplets.swift in Sources */,
+				0ABEDCB51F04324D00093E4C /* TimeConversion.swift in Sources */,
+				0ABEDCAF1F04207000093E4C /* Staircase.swift in Sources */,
 				0ABEDCA91F03F7AB00093E4C /* AVeryBigSum.swift in Sources */,
 				0AF565B81F03EEB200608A8A /* main.swift in Sources */,
 			);
