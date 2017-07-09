@@ -26,16 +26,21 @@ class TheLove_LetterMystery: HackerRankChallenge {
     }
     
     func isPalindrome(string: String) -> Int {
-        let charCount = string.characters.count % 2 == 0 ? string.characters.count / 2 : string.characters.count / 2 + 1
+        let charCount = string.characters.count / 2
         var changes = 0
-        for i in 1 ... charCount {
-            let leftIndex = string.index(string.startIndex, offsetBy: i - 1)
-            let rightIndex = string.index(string.endIndex, offsetBy: -i)
-            let leftChar = string[leftIndex].asciiValue!
-            let rightChar = string[rightIndex].asciiValue!
-            let difference = Int(leftChar) - Int(rightChar)
-            changes += abs(difference)
+        
+
+        let leftIndex = string.index(string.startIndex, offsetBy: charCount)
+        let rightIndex = string.index(string.endIndex, offsetBy: -charCount)
+        let leftString = string.substring(to: leftIndex).asciiArray
+        let rightString = string.substring(from: rightIndex).asciiArray
+        for i in 0..<leftString.count {
+            let left = Int(leftString[i])
+            let right = Int(rightString[rightString.endIndex - (i + 1)])
+            let d = left - right
+            changes += abs(d)
         }
+
         return changes
     }
 }
