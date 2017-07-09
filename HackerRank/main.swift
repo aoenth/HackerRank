@@ -22,7 +22,11 @@ repeat {
         "Mini-Max Sum",
         "Birthday Cake Candles",
         "Time Conversion",
-        "CamelCase"]
+        "Intro to Tutorial Challenges",
+        "Grading",
+        "CamelCase",
+        "Alternating Characters",
+        "The Love-Letter Mystery"]
     
     var index = 1
     for c in challenges {
@@ -62,7 +66,15 @@ repeat {
         case 8:
             let _ = TimeConversion(numInputs: 1)
         case 9:
+            let _ = IntroToTutorialChallenges(numInputs: 1)
+        case 10:
+            let _ = Grading(numInputs: 0)
+        case 11:
             let _ = CamelCase(numInputs: 1)
+        case 12:
+            let _ = AlternatingCharacters(numInputs: 6)
+        case 13:
+            let _ = TheLove_LetterMystery(numInputs: 5)
         default:
             print("Challenge not found")
         }

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0A6FA3D71F1292A100C65E1D /* CamelCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FA3D61F1292A100C65E1D /* CamelCase.swift */; };
+		0A6FA3D91F1292EC00C65E1D /* IntroToTutorialChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FA3D81F1292EC00C65E1D /* IntroToTutorialChallenges.swift */; };
+		0A6FA3DB1F12939700C65E1D /* Grading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FA3DA1F12939700C65E1D /* Grading.swift */; };
+		0A6FA3DD1F1297E900C65E1D /* AlternatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FA3DC1F1297E900C65E1D /* AlternatingCharacters.swift */; };
+		0A6FA3DF1F129CCE00C65E1D /* TheLove-LetterMystery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FA3DE1F129CCE00C65E1D /* TheLove-LetterMystery.swift */; };
 		0ABEDCA51F03F23C00093E4C /* CompareTheTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCA41F03F23C00093E4C /* CompareTheTriplets.swift */; };
 		0ABEDCA71F03F3D600093E4C /* HackerRankChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCA61F03F3D600093E4C /* HackerRankChallenge.swift */; };
 		0ABEDCA91F03F7AB00093E4C /* AVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCA81F03F7AB00093E4C /* AVeryBigSum.swift */; };
@@ -34,6 +38,10 @@
 
 /* Begin PBXFileReference section */
 		0A6FA3D61F1292A100C65E1D /* CamelCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamelCase.swift; sourceTree = "<group>"; };
+		0A6FA3D81F1292EC00C65E1D /* IntroToTutorialChallenges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroToTutorialChallenges.swift; path = HackerRank/IntroToTutorialChallenges.swift; sourceTree = SOURCE_ROOT; };
+		0A6FA3DA1F12939700C65E1D /* Grading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grading.swift; path = HackerRank/Grading.swift; sourceTree = SOURCE_ROOT; };
+		0A6FA3DC1F1297E900C65E1D /* AlternatingCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternatingCharacters.swift; sourceTree = "<group>"; };
+		0A6FA3DE1F129CCE00C65E1D /* TheLove-LetterMystery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TheLove-LetterMystery.swift"; sourceTree = "<group>"; };
 		0ABEDCA41F03F23C00093E4C /* CompareTheTriplets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareTheTriplets.swift; sourceTree = "<group>"; };
 		0ABEDCA61F03F3D600093E4C /* HackerRankChallenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerRankChallenge.swift; sourceTree = "<group>"; };
 		0ABEDCA81F03F7AB00093E4C /* AVeryBigSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVeryBigSum.swift; sourceTree = "<group>"; };
@@ -84,10 +92,14 @@
 				0ABEDCAA1F0404CF00093E4C /* DiagonalDifference.swift */,
 				0ABEDCAC1F0418ED00093E4C /* PlusMinus.swift */,
 				0ABEDCAE1F04207000093E4C /* Staircase.swift */,
+				0A6FA3DA1F12939700C65E1D /* Grading.swift */,
 				0ABEDCB01F04279F00093E4C /* Mini-MaxSum.swift */,
 				0ABEDCB21F04304000093E4C /* BirthdayCakeCandles.swift */,
 				0ABEDCB41F04324D00093E4C /* TimeConversion.swift */,
+				0A6FA3D81F1292EC00C65E1D /* IntroToTutorialChallenges.swift */,
 				0A6FA3D61F1292A100C65E1D /* CamelCase.swift */,
+				0A6FA3DC1F1297E900C65E1D /* AlternatingCharacters.swift */,
+				0A6FA3DE1F129CCE00C65E1D /* TheLove-LetterMystery.swift */,
 			);
 			name = HackerRank;
 			path = Hackerrank;
@@ -152,17 +164,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6FA3DF1F129CCE00C65E1D /* TheLove-LetterMystery.swift in Sources */,
 				0ABEDCAB1F0404CF00093E4C /* DiagonalDifference.swift in Sources */,
 				0ABEDCB11F04279F00093E4C /* Mini-MaxSum.swift in Sources */,
 				0A6FA3D71F1292A100C65E1D /* CamelCase.swift in Sources */,
+				0A6FA3D91F1292EC00C65E1D /* IntroToTutorialChallenges.swift in Sources */,
 				0ABEDCB31F04304000093E4C /* BirthdayCakeCandles.swift in Sources */,
 				0ABEDCA71F03F3D600093E4C /* HackerRankChallenge.swift in Sources */,
 				0ABEDCAD1F0418ED00093E4C /* PlusMinus.swift in Sources */,
 				0ABEDCA51F03F23C00093E4C /* CompareTheTriplets.swift in Sources */,
 				0ABEDCB51F04324D00093E4C /* TimeConversion.swift in Sources */,
+				0A6FA3DD1F1297E900C65E1D /* AlternatingCharacters.swift in Sources */,
 				0ABEDCAF1F04207000093E4C /* Staircase.swift in Sources */,
 				0ABEDCA91F03F7AB00093E4C /* AVeryBigSum.swift in Sources */,
 				0AF565B81F03EEB200608A8A /* main.swift in Sources */,
+				0A6FA3DB1F12939700C65E1D /* Grading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
