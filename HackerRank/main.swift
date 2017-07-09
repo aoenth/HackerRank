@@ -21,7 +21,8 @@ repeat {
         "Staircase",
         "Mini-Max Sum",
         "Birthday Cake Candles",
-        "Time Conversion"]
+        "Time Conversion",
+        "CamelCase"]
     
     var index = 1
     for c in challenges {
@@ -60,6 +61,8 @@ repeat {
             let _ = BirthdayCakeCandles(numInputs: 2)
         case 8:
             let _ = TimeConversion(numInputs: 1)
+        case 9:
+            let _ = CamelCase(numInputs: 1)
         default:
             print("Challenge not found")
         }

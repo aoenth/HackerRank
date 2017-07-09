@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6FA3D71F1292A100C65E1D /* CamelCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FA3D61F1292A100C65E1D /* CamelCase.swift */; };
 		0ABEDCA51F03F23C00093E4C /* CompareTheTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCA41F03F23C00093E4C /* CompareTheTriplets.swift */; };
 		0ABEDCA71F03F3D600093E4C /* HackerRankChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCA61F03F3D600093E4C /* HackerRankChallenge.swift */; };
 		0ABEDCA91F03F7AB00093E4C /* AVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEDCA81F03F7AB00093E4C /* AVeryBigSum.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A6FA3D61F1292A100C65E1D /* CamelCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamelCase.swift; sourceTree = "<group>"; };
 		0ABEDCA41F03F23C00093E4C /* CompareTheTriplets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareTheTriplets.swift; sourceTree = "<group>"; };
 		0ABEDCA61F03F3D600093E4C /* HackerRankChallenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerRankChallenge.swift; sourceTree = "<group>"; };
 		0ABEDCA81F03F7AB00093E4C /* AVeryBigSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVeryBigSum.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				0ABEDCB01F04279F00093E4C /* Mini-MaxSum.swift */,
 				0ABEDCB21F04304000093E4C /* BirthdayCakeCandles.swift */,
 				0ABEDCB41F04324D00093E4C /* TimeConversion.swift */,
+				0A6FA3D61F1292A100C65E1D /* CamelCase.swift */,
 			);
 			name = HackerRank;
 			path = Hackerrank;
@@ -151,6 +154,7 @@
 			files = (
 				0ABEDCAB1F0404CF00093E4C /* DiagonalDifference.swift in Sources */,
 				0ABEDCB11F04279F00093E4C /* Mini-MaxSum.swift in Sources */,
+				0A6FA3D71F1292A100C65E1D /* CamelCase.swift in Sources */,
 				0ABEDCB31F04304000093E4C /* BirthdayCakeCandles.swift in Sources */,
 				0ABEDCA71F03F3D600093E4C /* HackerRankChallenge.swift in Sources */,
 				0ABEDCAD1F0418ED00093E4C /* PlusMinus.swift in Sources */,
