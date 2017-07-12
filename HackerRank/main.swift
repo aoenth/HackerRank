@@ -26,7 +26,8 @@ repeat {
         "Grading",
         "CamelCase",
         "Alternating Characters",
-        "The Love-Letter Mystery"]
+        "The Love-Letter Mystery",
+        "Pangrams"]
     
     var index = 1
     for c in challenges {
@@ -75,6 +76,8 @@ repeat {
             let _ = AlternatingCharacters(numInputs: 6)
         case 13:
             let _ = TheLove_LetterMystery(numInputs: 5)
+        case 14:
+            let _ = Pangrams(numInputs: 1)
         default:
             print("Challenge not found")
         }

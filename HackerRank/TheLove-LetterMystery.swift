@@ -28,8 +28,6 @@ class TheLove_LetterMystery: HackerRankChallenge {
     func isPalindrome(string: String) -> Int {
         let charCount = string.characters.count / 2
         var changes = 0
-        
-
         let leftIndex = string.index(string.startIndex, offsetBy: charCount)
         let rightIndex = string.index(string.endIndex, offsetBy: -charCount)
         let leftString = string.substring(to: leftIndex).asciiArray
